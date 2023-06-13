@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32">
+    <path style="stroke:none;fill-rule:nonzero;fill:#18BFD3;fill-opacity:1" d="M20.004 16.004a4 4 0 1 1-8 0 4 4 0 0 1 8 0Zm0 0"/>
+    <path style="stroke:none;fill-rule:nonzero;fill:#18BFD3;fill-opacity:1" d="M29.336 14.672h-2.758a10.679 10.679 0 0 0-9.242-9.242V2.672h-2.668V5.43c-4.813.605-8.633 4.425-9.238 9.242H2.672v2.664H5.43c.605 4.816 4.425 8.637 9.238 9.242v2.758h2.668v-2.758a10.679 10.679 0 0 0 9.242-9.242h2.758Zm-13.332 9.332c-4.414 0-8-3.59-8-8s3.586-8 8-8c4.41 0 8 3.59 8 8s-3.59 8-8 8Zm0 0"/>
+</svg>

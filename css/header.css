@@ -1,0 +1,786 @@
+@keyframes menu {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes ques {
+  from {
+    top: 100%;
+  }
+
+  to {
+    top: 0%;
+  }
+}
+
+@keyframes burger {
+  from {
+    left: 100%;
+  }
+  to {
+    left: 0;
+  }
+}
+
+
+header {
+  width: 100%;
+}
+
+header > menu {
+  width: 100%;
+  height: 68px;
+}
+
+header > menu > .nav-1 {
+  width: 100%;
+  height: 68px;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: white;
+  z-index: 999;
+}
+
+header > menu > .nav-1 > :nth-of-type(1) > img {
+  margin-right: 150px;
+  margin-left: 24px;
+  width: 110px;
+}
+
+header > menu > .nav-1 > :nth-of-type(2) {
+  width: 60%;
+}
+
+header > menu > .nav-1 > :nth-of-type(2) label {
+  position: relative;
+}
+header > menu > .nav-1 > :nth-of-type(2) img {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  top: 50%;
+  right: 1%;
+  transform: translateY(-50%);
+}
+
+header > menu > .nav-1 > :nth-of-type(2) input {
+  width: 52%;
+  height: 44px;
+  border: none;
+  background-color: #f0f0f1;
+  border-radius: 8px;
+  color: #81858b;
+  padding-right: 40px;
+  font: 13px "IranYekan Regular";
+  outline: none;
+}
+
+header > menu > .nav-1 > :nth-of-type(3) {
+  width: 10%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  margin: 150px;
+}
+
+header > menu > .nav-1 > :nth-of-type(3) a {
+  text-decoration: none;
+}
+
+header > menu > .nav-1 > :nth-of-type(3) button {
+  display: flex;
+  flex-flow: row nowrap;
+  width: 141px;
+  height: 40px;
+  padding: 8px 16px;
+  align-items: center;
+  cursor: pointer;
+  background-color: white;
+  border: rgb(161, 163, 168, 50%) solid 1px;
+  border-radius: 8px;
+  font: 13px "IranYekan Regular";
+  color: #0c0c0c;
+}
+
+header > menu > .nav-1 > :nth-of-type(3) button > img {
+  width: 24px;
+  height: 24px;
+  opacity: 55%;
+  margin-left: 5px;
+}
+
+header > menu > .nav-1 > :nth-of-type(3) > p {
+  padding: 0px 8px;
+  font: 24px/40px "IranYekan Regular";
+  color: #a1a3a8;
+}
+header > menu > .nav-1 > :nth-of-type(3) > a {
+  margin: auto 0;
+}
+
+header > menu > .nav-1 > :nth-of-type(3) > a > img {
+  width: 21px;
+  height: 21px;
+}
+
+header > menu > .nav-2 {
+  margin-top: 68px;
+  width: 100%;
+  height: 40px;
+  display: flex;
+  flex-flow: row nowrap;
+  box-shadow: rgba(0, 0, 0, 15%) 0px 0px 5px;
+}
+
+header > menu > .nav-2 > nav {
+  display: flex;
+  flex-flow: row nowrap;
+  width: 85%;
+  height: 100%;
+  margin-right: 150px;
+}
+
+header > menu > .nav-2 > nav > label {
+  display: none;
+}
+header > menu > .nav-2 > nav > ul {
+  display: flex;
+  flex-flow: row nowrap;
+  width: 100%;
+  gap: 20px;
+}
+
+header > menu > .nav-2 > nav > ul > li {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  line-height: 40px;
+  margin-left: 1%;
+}
+header > menu > .nav-2 > nav > ul > li:hover {
+  border-bottom: #0c0c0c solid 2px;
+  transition: all 200ms linear;
+}
+
+header > menu > .nav-2 > nav > ul > li a {
+  text-decoration: none;
+  font: 13px/40px "IranYekan Regular";
+  color: #62666d;
+}
+
+header > menu > .nav-2 > nav > ul > li > a > img {
+  width: 18px;
+  height: 18px;
+  margin-bottom: -5px;
+  opacity: 30%;
+  margin-left: 3px;
+}
+
+header > menu > .nav-2 > nav > ul > :nth-child(1) {
+  display: block;
+  color: #0c0c0c;
+  font-weight: bold;
+  font: 13px/40px "IranYekan Regular";
+  color: #62666d;
+  cursor: pointer;
+}
+
+header > menu > .nav-2 > nav > ul > :nth-child(1) img {
+  width: 24px;
+  height: 24px;
+  margin-bottom: -8px;
+}
+
+header > menu > .nav-2 > div.loc {
+  width: 18%;
+  height: 100%;
+  margin-left: 150px;
+  text-align: left;
+  line-height: 40px;
+}
+header > menu > .nav-2 > div.loc > label {
+  text-decoration: none;
+  color: #0c0c0c;
+  font: 13px "IranYekan Regular";
+  width: 100%;
+  cursor: pointer;
+}
+header > menu > .nav-2 > div.loc > label > img {
+  width: 20px;
+  height: 20px;
+  margin-bottom: -5px;
+  margin-left: 3px;
+}
+header > menu > .nav-2 > div.loc > label > :nth-child(2) {
+  display: none;
+}
+
+.loc > label .arrow-loc {
+  display: none;
+}
+
+.question {
+  display: none;
+}
+
+.meta-nav {
+  display: none;
+  flex-flow: row nowrap;
+  height: 150vh;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 20%);
+  transition: all 300ms linear;
+  animation-name: menu;
+  animation-duration: 500ms;
+  position: absolute;
+  right: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.hhh:hover > .meta-nav {
+  display: block;
+}
+
+.meta-nav > :nth-child(1) {
+  width: 84%;
+  height: 650px;
+  overflow-y:scroll ;
+  display: flex;
+  flex-flow: row nowrap;
+  border-radius: 0px 0 16px 16px;
+  box-shadow: rgb(0, 0, 0, 20%) 0px 2px 8px;
+  background-color: white;
+  margin: 0 auto;
+}
+
+.meta-nav > :nth-child(1) > :nth-child(1) {
+  width: 16%;
+  display: flex;
+  flex-flow: row nowrap;
+  border-left: rgb(0, 0, 0, 20%) solid 1px;
+}
+
+.meta-nav > :nth-child(1) > :nth-child(1) > ul {
+  display: flex;
+  flex-flow: column nowrap;
+  width: 100%;
+  padding-right: 3%;
+  margin-top: 4px;
+}
+.meta-nav > :nth-child(1) > :nth-child(1) > ul > li {
+  width: 100%;
+  list-style-type: none;
+  padding: 8% 0% 8% 0;
+}
+
+.meta-nav > :nth-child(1) > :nth-child(1) > ul > li > a {
+  display: flex;
+  flex-flow: row nowrap;
+  text-decoration: none;
+  font: 12px "IranYekan bold";
+  color: #000;
+  align-items: center;
+}
+.meta-nav > :nth-child(1) > :nth-child(1) > ul > li > a > img {
+  width: 18px;
+  height: 18px;
+  padding-left: 2%;
+  margin-top: -8px;
+}
+
+.meta-nav > :nth-child(1) > :nth-child(2) {
+  display: flex;
+  flex-flow: row nowrap;
+  width: 83%;
+  justify-content: space-around;
+}
+
+.meta-nav > :nth-child(1) > :nth-child(2) > ul {
+  display: flex;
+  flex-flow: column nowrap;
+  margin-top: 3%;
+  align-self: flex-start;
+}
+.meta-nav > :nth-child(1) > :nth-child(2) > :nth-child(2) {
+  margin-top: 80px;
+}
+
+.meta-nav > :nth-child(1) > :nth-child(2) > :nth-child(3) {
+  margin-top: 80px;
+}
+
+.meta-nav > :nth-child(1) > :nth-child(2) > ul > li {
+  width: 100%;
+  list-style-type: none;
+  padding: 2% 0px;
+}
+.meta-nav > :nth-child(1) > :nth-child(2) > ul > li > a {
+  text-decoration: none;
+  font: 12px "IranYekan Regular";
+  color: #000;
+}
+.meta-nav > :nth-child(1) > :nth-child(2) > div {
+  display: flex;
+  flex-flow: column nowrap;
+  text-align: left;
+  justify-content: left;
+}
+.meta-nav > :nth-child(1) > :nth-child(2) > div > img {
+  width: 285px;
+  height: 216.17px;
+  border-radius: 8px;
+  margin-top: 24%;
+}
+.close {
+  margin-top: 8%;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+.kala {
+  background-color: white;
+  width: 70.5%;
+  height: 650px;
+  position: absolute;
+  display: flex;
+  right: 21.5%;
+  top: 0%;
+  display: none;
+  border-radius: 0px 0px 0px 16px;
+}
+
+.kala ul {
+  width: 50%;
+  list-style-type: none;
+  padding: 16px;
+  margin-top: 3%;
+}
+
+.kala > :nth-child(2) {
+  margin-top: 80px;
+}
+.kala > :nth-child(3) {
+  margin-top: 80px;
+}
+
+.kala0:hover > .kala {
+  display: flex;
+}
+
+.kala-img-div {
+  height: 100%;
+  margin-left: 5%;
+}
+
+#kala-img {
+  width: 285px;
+  height: 216.17px;
+  border-radius: 8px;
+  margin-top: 64px;
+}
+
+.khodro {
+  background-color: white;
+  width: 70.5%;
+  height: 650px;
+  position: absolute;
+  display: flex;
+  right: 21.5%;
+  top: 0%;
+  display: none;
+  border-radius: 0px 0px 0px 16px;
+}
+
+.khodro ul {
+  list-style-type: none;
+  padding: 16px;
+  margin-top: 3%;
+}
+
+.khodro > :nth-child(2) {
+  margin-top: 80px;
+}
+.khodro > :nth-child(3) {
+  margin-top: 80px;
+}
+.khodro > :nth-child(4) {
+  margin-top: 80px;
+}
+
+.khodro0:hover > .khodro {
+  display: flex;
+}
+
+.poshak {
+  background-color: white;
+  width: 70.5%;
+  height: 650px;
+  position: absolute;
+  display: flex;
+  right: 21.5%;
+  top: 0%;
+  display: none;
+  border-radius: 0px 0px 0px 16px;
+}
+
+.poshak ul {
+  list-style-type: none;
+  padding: 16px;
+  margin-top: 3%;
+}
+
+.poshak > :nth-child(2) {
+  margin-top: 80px;
+}
+.poshak > :nth-child(3) {
+  margin-top: 80px;
+}
+.poshak > :nth-child(4) {
+  margin-top: 80px;
+}
+
+.poshak0:hover > .poshak {
+  display: flex;
+}
+
+.market {
+  background-color: white;
+  width: 70.5%;
+  height: 650px;
+  position: absolute;
+  display: flex;
+  right: 21.5%;
+  top: 0%;
+  display: none;
+  border-radius: 0px 0px 0px 16px;
+}
+
+.market ul {
+  list-style-type: none;
+  padding: 16px;
+  margin-top: 3%;
+}
+
+.market > :nth-child(2) {
+  margin-top: 80px;
+}
+.market > :nth-child(3) {
+  margin-top: 80px;
+}
+.market > :nth-child(4) {
+  margin-top: 80px;
+}
+
+.market0:hover > .market {
+  display: flex;
+}
+
+.baby {
+  background-color: white;
+  width: 70.5%;
+  height: 650px;
+  position: absolute;
+  display: flex;
+  right: 21.5%;
+  top: 0%;
+  display: none;
+  border-radius: 0px 0px 0px 16px;
+}
+
+.baby ul {
+  list-style-type: none;
+  padding: 16px;
+  margin-top: 3%;
+}
+
+.baby > :nth-child(2) {
+  margin-top: 80px;
+}
+.baby > :nth-child(3) {
+  margin-top: 80px;
+}
+.baby > :nth-child(4) {
+  margin-top: 80px;
+}
+
+.baby0:hover > .baby {
+  display: flex;
+}
+
+.boomi {
+  background-color: white;
+  width: 70.5%;
+  height: 650px;
+  position: absolute;
+  display: flex;
+  right: 21.5%;
+  top: 0%;
+  display: none;
+  border-radius: 0px 0px 0px 16px;
+}
+
+.boomi ul {
+  list-style-type: none;
+  padding: 16px;
+  margin-top: 3%;
+}
+
+.boomi > :nth-child(2) {
+  margin-top: 80px;
+}
+.boomi > :nth-child(3) {
+  margin-top: 80px;
+}
+.boomi > :nth-child(4) {
+  margin-top: 80px;
+}
+
+.boomi0:hover > .boomi {
+  display: flex;
+}
+
+.beauty {
+  background-color: white;
+  width: 70.5%;
+  height: 650px;
+  position: absolute;
+  display: flex;
+  right: 21.5%;
+  top: 0%;
+  display: none;
+  border-radius: 0px 0px 0px 16px;
+}
+
+.beauty ul {
+  list-style-type: none;
+  padding: 16px;
+  margin-top: 3%;
+}
+
+.beauty > :nth-child(2) {
+  margin-top: 80px;
+}
+.beauty > :nth-child(3) {
+  margin-top: 80px;
+}
+.beauty > :nth-child(4) {
+  margin-top: 80px;
+}
+
+.beauty0:hover > .beauty {
+  display: flex;
+}
+
+.kitchen {
+  background-color: white;
+  width: 70.5%;
+  height: 650px;
+  position: absolute;
+  display: flex;
+  right: 21.5%;
+  top: 0%;
+  display: none;
+  border-radius: 0px 0px 0px 16px;
+}
+
+.kitchen ul {
+  list-style-type: none;
+  padding: 16px;
+  margin-top: 3%;
+}
+
+.kitchen > :nth-child(2) {
+  margin-top: 80px;
+}
+.kitchen > :nth-child(3) {
+  margin-top: 80px;
+}
+.kitchen > :nth-child(4) {
+  margin-top: 80px;
+}
+
+.kitchen0:hover > .kitchen {
+  display: flex;
+}
+
+.book {
+  background-color: white;
+  width: 70.5%;
+  height: 650px;
+  position: absolute;
+  display: flex;
+  right: 21.5%;
+  top: 0%;
+  display: none;
+  border-radius: 0px 0px 0px 16px;
+}
+
+.book ul {
+  list-style-type: none;
+  padding: 16px;
+  margin-top: 3%;
+}
+
+.book > :nth-child(2) {
+  margin-top: 80px;
+}
+.book > :nth-child(3) {
+  margin-top: 80px;
+}
+.book > :nth-child(4) {
+  margin-top: 80px;
+}
+
+.book0:hover > .book {
+  display: flex;
+}
+
+.sport {
+  background-color: white;
+  width: 70.5%;
+  height: 650px;
+  position: absolute;
+  display: flex;
+  right: 21.5%;
+  top: 0%;
+  display: none;
+  border-radius: 0px 0px 0px 16px;
+}
+
+.sport ul {
+  list-style-type: none;
+  padding: 16px;
+  margin-top: 3%;
+}
+
+.sport > :nth-child(2) {
+  margin-top: 80px;
+}
+.sport > :nth-child(3) {
+  margin-top: 80px;
+}
+.sport > :nth-child(4) {
+  margin-top: 80px;
+}
+
+.sport0:hover > .sport {
+  display: flex;
+}
+
+#openCity,
+#closeCity {
+  display: none;
+}
+
+#openCity:checked ~ .location-bk {
+  display: block;
+}
+#closeCity:checked ~ .location-bk {
+  display: none;
+}
+
+.location-bk {
+  margin-top: -27px;
+  width: 100%;
+  height: 200vh;
+  background-color: rgba(0, 0, 0, 20%);
+  position: relative;
+  display: none;
+  transition: all 300ms linear;
+  animation-name: menu;
+  animation-duration: 500ms;
+}
+
+.location-bk > .location {
+  width: 460px;
+  height: 650px;
+  background-color: white;
+  border-radius: 8px;
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  right: calc(50% - 230px);
+}
+.location-bk > .location a {
+  list-style-type: none;
+  text-decoration: none;
+  font-size: 15px;
+  color: #0c0c0c;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 16px;
+  border-bottom: rgba(0, 0, 0, 20%) solid 1px;
+}
+.location-bk > .location ul {
+  list-style-type: none;
+  text-decoration: none;
+}
+.location-bk > .location > :nth-child(1) {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: rgba(0, 0, 0, 20%) solid 1px;
+  margin: 4% 3% 0 3%;
+  padding-bottom: 3%;
+}
+.location-bk > .location > :nth-child(1) > p {
+  color: #0c0c0c;
+  font: 16px "IranYekan bold";
+}
+.location-bk > .location > :nth-child(1) > label > img {
+  width: 22px;
+  height: 22px;
+  cursor: pointer;
+}
+
+.location-bk > .location > :nth-child(2) {
+  display: flex;
+  justify-content: flex-start;
+  margin: 4% 3% 0 3%;
+  padding-bottom: 3%;
+}
+.location-bk > .location > :nth-child(2) > button {
+  background-color: transparent;
+  border: none;
+  font: 16px "IranYekan bold";
+  color: #0c0c0c;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.location-bk > .location > :nth-child(2) > img {
+  width: 24px;
+  height: 24px;
+}
+.location-bk > .location > :nth-child(3) {
+  width: 100%;
+  height: 80%;
+  padding: 0;
+  overflow-y: scroll;
+}
+
+.menu-burger {
+  display: none;
+}
+
+input#openMenu,
+input#closeMenu {
+  display: none;
+}
+
+.question-logo {
+  display: none;
+}
+
+#openQuestion,
+#closeQuestion {
+  display: none;
+}

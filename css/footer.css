@@ -1,0 +1,313 @@
+footer {
+  width: 100%;
+  height: min-content;
+  border-top: rgba(0, 0, 0, 15%) solid 1px;
+}
+.content-footer-1 {
+  width: 100%;
+  height: 600px;
+  padding: 0 8%;
+}
+.content-footer-1 > .content-f-1 {
+  width: 100%;
+  height: 995px;
+}
+
+.content-footer-1 > .content-f-1 > :nth-child(1) {
+  width: 100%;
+  height: min-content;
+  display: flex;
+  padding: 16px 0;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+.content-footer-1 > .content-f-1 > :nth-child(1) > img {
+  width: 115px;
+  height: 30px;
+}
+.content-footer-1 > .content-f-1 > :nth-child(1) > a {
+  text-decoration: none;
+}
+.content-footer-1 > .content-f-1 > :nth-child(1) > a > button {
+  width: 144px;
+  height: 40px;
+  background: transparent;
+  border: rgba(0, 0, 0, 30%) solid 1px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  font: 14px "IranYekan bold";
+  gap: 2%;
+  cursor: pointer;
+  opacity: 40%;
+}
+.content-footer-1 > .content-f-1 > :nth-child(2) {
+  margin: 10px 0;
+}
+.content-footer-1 > .content-f-1 > :nth-child(2) > p {
+  font: 14px "IranYekan regular";
+}
+.content-footer-1 > .content-f-1 > :nth-child(2) > p > br:nth-child(2) {
+  display: none;
+}
+
+.content-f-1 > :nth-child(3) {
+  display: flex;
+  width: 100%;
+  height: min-content;
+  justify-content: space-around;
+  margin: 60px 0;
+}
+
+.content-f-1 > :nth-child(3) > a {
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  font: 14px "IranYekan bold";
+}
+
+.content-f-1 > :nth-child(4) {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.content-f-1 > :nth-child(4) > div {
+  width: 100%;
+  display: flex;
+}
+.content-f-1 > :nth-child(4) > div > div {
+  width: 100%;
+}
+
+.content-f-1 > :nth-child(4) > div > div > p {
+  margin-bottom: 15px;
+  font: 15px "IranYekan bold";
+}
+.content-f-1 > :nth-child(4) > div > div > ul > li {
+  list-style-type: none;
+  line-height: 40px;
+}
+.content-f-1 > :nth-child(4) > div > div > ul > li > a {
+  text-decoration: none;
+  font: 14px "IranYekan Regular";
+  color: rgba(0, 0, 0, 50%);
+}
+
+.content-f-1 > :nth-child(4) > :nth-child(2) > :nth-child(2) > div > img {
+  width: 40px;
+  height: 40px;
+  opacity: 30%;
+  margin: 16px 0 32px 24px;
+  cursor: pointer;
+}
+
+.content-f-1 > :nth-child(4) > :nth-child(2) > :nth-child(2) > p {
+  font: 15px "IranYekan bold";
+}
+.content-f-1 > :nth-child(4) > :nth-child(2) > :nth-child(2) > form {
+  width: 100%;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.content-f-1 > :nth-child(4) > :nth-child(2) > :nth-child(2) > form > input {
+  width: 80%;
+  height: inherit;
+  border-radius: 8px;
+  border: none;
+  background-color: #f0f0f1;
+  padding: 0 20px 0 8px;
+  outline: none;
+  font: 14px "IranYekan regular";
+}
+
+.content-f-1
+  > :nth-child(4)
+  > :nth-child(2)
+  > :nth-child(2)
+  > form
+  > input::placeholder {
+  opacity: 60%;
+  font: 14px "IranYekan bold";
+}
+
+.content-f-1 > :nth-child(4) > :nth-child(2) > :nth-child(2) > form > label {
+  background-color: #e0e0e2;
+  padding: 12px 14px;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.content-footer-2 {
+  width: 100%;
+  height: 76px;
+  padding: 0 8%;
+}
+.content-footer-2 > .content-f-2 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  background-color: #3c4b6d;
+  border-radius: 8px;
+}
+.content-footer-2 > .content-f-2 > :nth-child(1) {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+.content-footer-2 > .content-f-2 > :nth-child(1) > img {
+  width: 44px;
+  height: 44px;
+  margin: 0 16px;
+}
+.content-footer-2 > .content-f-2 > :nth-child(1) > p {
+  font: 21px "IranYekan bold";
+  color: white;
+}
+
+.content-footer-2 > .content-f-2 > :nth-child(2) {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 8px;
+  padding-left: 8px;
+}
+.content-footer-2 > .content-f-2 > :nth-child(2) > a {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.content-footer-2 > .content-f-2 > :nth-child(2) > a > img {
+  width: 142px;
+  height: 42px;
+  border-radius: 4px;
+}
+
+.content-footer-2 > .content-f-2 > :nth-child(3) {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content-footer-2 > .content-f-2 > :nth-child(3) > :nth-child(1) {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  background-color: #ffffff;
+  border-radius: 4px;
+  margin-left: 16px;
+}
+
+.content-footer-2 > .content-f-2 > :nth-child(3) > :nth-child(2) {
+  display: none;
+}
+
+.content-footer-3 {
+  width: 100%;
+  padding: 0 8%;
+}
+.content-footer-3 > .content-f-3 {
+  width: 100%;
+  margin: 24px 0;
+}
+
+.content-footer-3 > .content-f-3 > :nth-child(1) {
+  width: 100%;
+  display: flex;
+  margin-bottom: 24px;
+  padding: 24px 0;
+  border-top: rgba(0, 0, 0, 10%) solid 1px;
+  border-bottom: rgba(0, 0, 0, 10%) solid 1px;
+}
+
+.content-footer-3 > .content-f-3 > :nth-child(1) > :nth-child(1) {
+  width: 50%;
+}
+.content-footer-3
+  > .content-f-3
+  > :nth-child(1)
+  > :nth-child(1)
+  > :nth-of-type(1) {
+  font: 600 15px "IranYekan bold";
+}
+.content-footer-3
+  > .content-f-3
+  > :nth-child(1)
+  > :nth-child(1)
+  > :nth-of-type(2) {
+  font: 13px "IranYekan regular";
+  line-height: 32px;
+  width: 100%;
+}
+.content-footer-3 > .content-f-3 > :nth-child(1) > :nth-child(1) > a {
+  font-size: 14px !important;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 30%);
+}
+
+.content-footer-3 > .content-f-3 > :nth-child(1) > :nth-child(2) {
+  width: 50%;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 8px;
+}
+.content-footer-3 > .content-f-3 > :nth-child(1) > :nth-child(2) > a {
+  width: 109px;
+  height: 109px;
+  border: rgba(0, 0, 0, 15%) solid 1px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-footer-3 > .content-f-3 > :nth-child(1) > :nth-child(2) > a > img {
+  width: 75px;
+  height: 75px;
+}
+
+.content-footer-3 > .content-f-3 > :nth-child(2) {
+  width: 100%;
+  text-align: center;
+  font: 13px "IranYekan regular";
+  line-height: 24px;
+}
+
+.content-footer-4 {
+  width: 100%;
+  padding: 0 8%;
+  background-color: #f0f0f1;
+}
+
+.content-footer-4 > .content-f-4 {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+.content-footer-4 > .content-f-4 > a {
+  display: flex;
+  width: 12.5%;
+  height: 80px;
+  background-color: #f0f0f1;
+  justify-content: center;
+  align-items: center;
+  border: rgba(0, 0, 0, 10%) solid 1px;
+}
+.content-f-4 > a > img {
+  width: 107px;
+  height: 20px;
+}
